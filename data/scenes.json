@@ -1,0 +1,244 @@
+[
+  {
+    "id": 0,
+    "title": "敷地から、工場の顔へ",
+    "message": "正門から、玄関へ。",
+    "body": "東側の玄関へ導くアプローチ。\nスロープと植栽で、到着の場を整える。",
+    "start": 0,
+    "duration": 6,
+    "view": "site",
+    "state": {
+      "explode": 0,
+      "cut": 0,
+      "routes": 0,
+      "zones": 0,
+      "bcp": 0,
+      "light": 0
+    },
+    "annotations": [
+      "entry",
+      "changing"
+    ],
+    "source": "配置図 p16／方針1 p05",
+    "elements3d": [
+      "事務所棟",
+      "更衣室棟",
+      "計画範囲"
+    ],
+    "elements2d": [
+      "短文見出し",
+      "アンカー注釈",
+      "出典表示"
+    ],
+    "animation": "配置全体を俯瞰し、入口を指示",
+    "transition": "次のカメラへ1.4秒の緩やかな移動",
+    "question": "初めて来た人を、どう迎える？",
+    "verb": "迎える"
+  },
+  {
+    "id": 1,
+    "title": "端正な外観が、信頼をつくる",
+    "message": "窓と庇で、\n外観に秩序を。",
+    "body": "階ごとの窓割りと、連続する水平の庇。\n立面図の構成を、ひとつの輪郭で読む。",
+    "start": 6,
+    "duration": 6,
+    "view": "facade",
+    "state": {
+      "explode": 0,
+      "cut": 0,
+      "routes": 0,
+      "zones": 0,
+      "bcp": 0,
+      "light": 0
+    },
+    "annotations": [
+      "facade",
+      "light"
+    ],
+    "source": "立面図 p18／方針1 p05",
+    "elements3d": [
+      "facade",
+      "事務所棟"
+    ],
+    "elements2d": [
+      "短文見出し",
+      "アンカー注釈",
+      "出典表示"
+    ],
+    "animation": "同じ軸測方向で外観へ寄り、窓と水平の庇を示す",
+    "transition": "次のカメラへ1.4秒の緩やかな移動",
+    "question": "工場の顔を、どう整える？",
+    "verb": "整える"
+  },
+  {
+    "id": 2,
+    "title": "3つの階に、役割を重ねる",
+    "message": "迎える1階。\n分析する2階。\n働く3階。",
+    "body": "各階の役割を、立体的にほどく。\n室配置と領域の色は、元の平面図に沿って。",
+    "start": 12,
+    "duration": 7,
+    "view": "exploded",
+    "state": {
+      "explode": 1,
+      "cut": 1,
+      "routes": 0,
+      "zones": 0,
+      "bcp": 0,
+      "light": 0
+    },
+    "annotations": [],
+    "source": "平面図 p17／室配置と原図の色凡例を反映",
+    "elements3d": [
+      "exploded",
+      "事務所棟"
+    ],
+    "elements2d": [
+      "短文見出し",
+      "アンカー注釈",
+      "出典表示"
+    ],
+    "animation": "屋根→3階→2階の順に展開。原図から再描画した室配置・色領域と外側の階ラベル、人のピクトグラムを表示",
+    "transition": "次のカメラへ1.4秒の緩やかな移動",
+    "question": "異なる仕事を、どうまとめる？",
+    "verb": "重ねる"
+  },
+  {
+    "id": 3,
+    "title": "人と物を、迷わず導く",
+    "message": "入口を分けて、\n迷わず目的地へ。",
+    "body": "来客は東、社員は西、納品は北から。\nDWを使い、荷物を2階の分析部へ。",
+    "start": 19,
+    "duration": 7,
+    "view": "routes",
+    "state": {
+      "explode": 0.45,
+      "cut": 0.7,
+      "routes": 1,
+      "zones": 0,
+      "bcp": 0,
+      "light": 0
+    },
+    "annotations": [
+      "visitor",
+      "delivery"
+    ],
+    "source": "配置図 p16／平面図 p17／方針3 p08",
+    "elements3d": [
+      "routes",
+      "事務所棟"
+    ],
+    "elements2d": [
+      "短文見出し",
+      "アンカー注釈",
+      "出典表示"
+    ],
+    "animation": "来客・社員・納品の白縁付き破線矢印を順に伸ばす。人のピクトグラムが先端に追従し、各到達でピアノ音",
+    "transition": "次のカメラへ1.4秒の緩やかな移動",
+    "question": "人と荷物を、どう導く？",
+    "verb": "分ける"
+  },
+  {
+    "id": 4,
+    "title": "開く場所と、守る場所",
+    "message": "開く領域。\n守る領域。",
+    "body": "来客・社員・高セキュリティの3領域。\n階の中にも、段階のある境界をつくる。",
+    "start": 26,
+    "duration": 7,
+    "view": "security",
+    "state": {
+      "explode": 1,
+      "cut": 1,
+      "routes": 0,
+      "zones": 1,
+      "bcp": 0,
+      "light": 0
+    },
+    "annotations": [
+      "secure",
+      "meeting"
+    ],
+    "source": "平面図 p17／方針3 p08",
+    "elements3d": [
+      "security",
+      "事務所棟"
+    ],
+    "elements2d": [
+      "短文見出し",
+      "アンカー注釈",
+      "出典表示"
+    ],
+    "animation": "分解状態に3領域を順次表示",
+    "transition": "次のカメラへ1.4秒の緩やかな移動",
+    "question": "開放と情報管理を、どう両立する？",
+    "verb": "守る"
+  },
+  {
+    "id": 5,
+    "title": "非常時にも、工場を支える",
+    "message": "データは2階。\n設備は屋上へ。",
+    "body": "災害時の事業継続を支える配置。\n重要設備を、上階と屋上にまとめる。",
+    "start": 33,
+    "duration": 7,
+    "view": "bcp",
+    "state": {
+      "explode": 0.45,
+      "cut": 0.7,
+      "routes": 0,
+      "zones": 0,
+      "bcp": 1,
+      "light": 0
+    },
+    "annotations": [
+      "data",
+      "equipment"
+    ],
+    "source": "方針4 p09／断面図 p18",
+    "elements3d": [
+      "bcp",
+      "事務所棟"
+    ],
+    "elements2d": [
+      "短文見出し",
+      "アンカー注釈",
+      "出典表示"
+    ],
+    "animation": "2階と屋上設備を順に強調",
+    "transition": "次のカメラへ1.4秒の緩やかな移動",
+    "question": "重要な機能を、どこに置く？",
+    "verb": "備える"
+  },
+  {
+    "id": 6,
+    "title": "迎える。守る。支える。",
+    "message": "迎える。\n守る。支える。",
+    "body": "明快な入口、分かれた動線、重要機能の配置。\n日々の工場運営を支える、新しい事務所。",
+    "start": 40,
+    "duration": 5,
+    "view": "final",
+    "state": {
+      "explode": 0,
+      "cut": 0,
+      "routes": 0,
+      "zones": 0,
+      "bcp": 0,
+      "light": 0
+    },
+    "annotations": [
+      "conclusion"
+    ],
+    "source": "提供資料の設計方針を編集・要約",
+    "elements3d": [
+      "final",
+      "事務所棟"
+    ],
+    "elements2d": [
+      "短文見出し",
+      "アンカー注釈",
+      "出典表示"
+    ],
+    "animation": "模型を元の姿に戻して静止",
+    "transition": "次のカメラへ1.4秒の緩やかな移動",
+    "question": "それぞれの工夫が、何につながる？",
+    "verb": "つなぐ"
+  }
+]
