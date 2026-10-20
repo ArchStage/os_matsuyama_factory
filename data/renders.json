@@ -1,0 +1,41 @@
+{
+  "note": "各パースは作成時点の計画イメージです。時期・表現の違いがあり、図面との対応は原図で確認してください。AI表記の画像は参考イメージとして区別し、模型の形状は変更していません。",
+  "items": [
+    {
+      "id": "exterior-ai",
+      "title": "外観｜玄関と庇",
+      "caption": "東側玄関と、建物を囲む庇を地上の視点から見る。",
+      "source": "AI松山横.jpeg",
+      "image": "render-exterior-ai.jpg",
+      "thumbnail": "render-exterior-ai-thumb.jpg",
+      "referenceOnly": true
+    },
+    {
+      "id": "bird",
+      "title": "鳥瞰｜建物と配置",
+      "caption": "事務所棟・更衣室棟・駐車場・駐輪場の位置関係を俯瞰する。",
+      "source": "横_松山_鳥観.jpg",
+      "image": "render-bird.jpg",
+      "thumbnail": "render-bird-thumb.jpg",
+      "referenceOnly": false
+    },
+    {
+      "id": "hall",
+      "title": "玄関ホール｜受付の風景",
+      "caption": "玄関ホールと、ガラス越しの受付・応接の関係を見る。",
+      "source": "松山_玄関ホール.jpg",
+      "image": "render-hall.jpg",
+      "thumbnail": "render-hall-thumb.jpg",
+      "referenceOnly": false
+    }
+  ],
+  "sceneMap": [
+    "bird",
+    "exterior-ai",
+    "bird",
+    "bird",
+    "hall",
+    "bird",
+    "exterior-ai"
+  ]
+}
