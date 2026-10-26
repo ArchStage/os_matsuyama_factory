@@ -1,14 +1,14 @@
 {
-  "note": "各パースは作成時点の計画イメージです。時期・表現の違いがあり、図面との対応は原図で確認してください。AI表記の画像は参考イメージとして区別し、模型の形状は変更していません。",
+  "note": "各パースは作成時点の計画イメージです。時期・表現の違いがあり、図面との対応は原図で確認してください。",
   "items": [
     {
       "id": "exterior-ai",
       "title": "外観｜玄関と庇",
       "caption": "東側玄関と、建物を囲む庇を地上の視点から見る。",
-      "source": "AI松山横.jpeg",
-      "image": "render-exterior-ai.jpg",
-      "thumbnail": "render-exterior-ai-thumb.jpg",
-      "referenceOnly": true
+      "source": "_matu01_.png",
+      "image": "render-exterior-20261026.png",
+      "thumbnail": "render-exterior-20261026-thumb.jpg",
+      "referenceOnly": false
     },
     {
       "id": "bird",
@@ -23,9 +23,9 @@
       "id": "hall",
       "title": "玄関ホール｜受付の風景",
       "caption": "玄関ホールと、ガラス越しの受付・応接の関係を見る。",
-      "source": "松山_玄関ホール.jpg",
-      "image": "render-hall.jpg",
-      "thumbnail": "render-hall-thumb.jpg",
+      "source": "_matu03_.png",
+      "image": "render-hall-20261026.png",
+      "thumbnail": "render-hall-20261026-thumb.jpg",
       "referenceOnly": false
     }
   ],
